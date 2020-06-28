@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Img from "gatsby-image";
 
 const Landing = ({ data }) => {
@@ -27,13 +27,13 @@ const Landing = ({ data }) => {
                 Adipiscing commodo elit at imperdiet dui accumsan sit. Ipsum
                 dolor sit amet consectetur adipiscing elit.{" "}
               </p>
-              <a
-                href="./download.html"
+              <Link
+                href="/download"
                 title=""
                 className="btn btn-lg btn-primary"
               >
                 Download
-              </a>
+              </Link>
             </div>
           </div>
         </div>

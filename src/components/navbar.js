@@ -24,55 +24,49 @@ class navbar extends React.Component {
                 <button
                   type="button"
                   className="navbar-toggle uarr collapsed"
-                  data-toggle="collapse"
-                  data-target="#navbar-collapse-uarr"
+                  onClick={this.toggleClass}
                 >
                   <span className="sr-only">Toggle navigation</span>
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>
                 </button>
-                <Link className="navbar-brand" to="/" title=""></Link>
+                <Link className="navbar-brand" to="/"></Link>
               </div>
 
               <div
-                className="collapse navbar-collapse"
+                className={classnames("collapse navbar-collapse", {
+                  "collapse in": this.state.active,
+                })}
                 id="navbar-collapse-uarr"
               >
                 <ul className="nav navbar-nav navbar-right">
-                  <li>
-                    <Link to="/" title="" className="active">
+                  <li
+                    className={classnames("", {
+                      "dropdown active": this.state.active,
+                    })}
+                  >
+                    <Link to="/" className="active">
                       Home
                     </Link>
                   </li>
                   <li>
-                    <Link to="/about" title="">
-                      {" "}
-                      About
-                    </Link>
+                    <Link to="/about"> About</Link>
                   </li>
                   <li>
-                    <Link to="/pricing" title="">
-                      {" "}
-                      Pricing{" "}
-                    </Link>
+                    <Link to="/pricing"> Pricing </Link>
                   </li>
                   <li>
-                    <Link to="/contact" title="">
-                      Contact
-                    </Link>
+                    <Link to="/contact">Contact</Link>
                   </li>
                   <li>
-                    <Link to="/components" title="">
-                      Components
-                    </Link>
+                    <Link to="/components">Components</Link>
                   </li>
                   <li>
                     <p>
                       <Link
                         to="/download"
                         className="btn btn-primary navbar-btn"
-                        title=""
                       >
                         Download
                       </Link>

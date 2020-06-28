@@ -10,7 +10,7 @@ const Layout = ({ children, current }) => {
   return (
     <>
       <Helmet></Helmet>
-      <Navbar />
+      <Navbar current={current} />
       {children}
       <Footer />
     </>
