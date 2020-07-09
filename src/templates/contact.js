@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
+import Map from "../components/map";
 
 const contact = () => {
   return (
@@ -8,7 +9,9 @@ const contact = () => {
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <div id="map">Need to add google maps</div>
+              <div id="map">
+                <Map />
+              </div>
             </div>
             <div class="col-xs-12">
               <div class="row">
