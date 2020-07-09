@@ -1,7 +1,12 @@
 import React from "react";
 import Layout from "../components/layout";
+import Img from "gatsby-image";
 
-const download = () => {
+const download = ({ data }) => {
+  console.log(data);
+  const img1 = data.markdownRemark.frontmatter.downloadPage.logo01;
+  const img2 = data.markdownRemark.frontmatter.downloadPage.logo02;
+
   return (
     <Layout>
       <div class="section-container">
@@ -37,10 +42,10 @@ const download = () => {
                 <br />
                 <a href="https://itunes.apple.com/fr/genre/mac/" title="">
                   {" "}
-                  <img
-                    src="./assets/images/app-store-apple.svg"
-                    class="img-responsive"
+                  <Img
+                    className="img-responsive"
                     alt=""
+                    fluid={img1.childImageSharp.fluid}
                   />
                 </a>
               </div>
@@ -54,11 +59,11 @@ const download = () => {
                 <br />
                 <a href="https://play.google.com/store/apps" title="">
                   {" "}
-                  <img
-                    src="./assets/images/google-play.svg"
-                    class="img-responsive"
+                  <Img
+                    className="img-responsive"
                     alt=""
-                  />
+                    fluid={img2.childImageSharp.fluid}
+                  />{" "}
                 </a>
               </div>
             </div>
@@ -87,3 +92,28 @@ const download = () => {
 };
 
 export default download;
+
+export const pageQuery = graphql`
+  query DownloadPageQuery($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      frontmatter {
+        downloadPage {
+          logo01 {
+            childImageSharp {
+              fluid(maxWidth: 10000, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          logo02 {
+            childImageSharp {
+              fluid(maxWidth: 10000, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`;
