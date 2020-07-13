@@ -3,13 +3,13 @@ import Layout from "../components/layout";
 
 const download = () => {
   return (
-    <Layout>
-      <div class="section-container">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-md-8 col-md-offset-2">
-              <div class="section-container-spacer">
-                <div class="text-center">
+    <Layout current='download'>
+      <div className="section-container">
+        <div className="container">
+          <div className="row">
+            <div className="col-xs-12 col-md-8 col-md-offset-2">
+              <div className="section-container-spacer">
+                <div className="text-center">
                   <h1>Download</h1>
                 </div>
                 <p>
@@ -27,9 +27,9 @@ const download = () => {
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-md-6 ">
-              <div class="download-card ">
+          <div className="row">
+            <div className="col-md-6 ">
+              <div className="download-card ">
                 <p>
                   Bibendum enim facilisis gravida <br />
                   neque convallis a cras semper{" "}
@@ -39,14 +39,14 @@ const download = () => {
                   {" "}
                   <img
                     src="./assets/images/app-store-apple.svg"
-                    class="img-responsive"
+                    className="img-responsive"
                     alt=""
                   />
                 </a>
               </div>
             </div>
-            <div class="col-md-6 ">
-              <div class="download-card">
+            <div className="col-md-6 ">
+              <div className="download-card">
                 <p>
                   Bibendum enim facilisis gravida <br />
                   neque convallis a cras semper{" "}
@@ -56,7 +56,7 @@ const download = () => {
                   {" "}
                   <img
                     src="./assets/images/google-play.svg"
-                    class="img-responsive"
+                    className="img-responsive"
                     alt=""
                   />
                 </a>
@@ -66,15 +66,15 @@ const download = () => {
         </div>
       </div>
 
-      <div class="section-container">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="text-center">
+      <div className="section-container">
+        <div className="container">
+          <div className="row">
+            <div className="col-xs-12">
+              <div className="text-center">
                 <blockquote>
                   <p>
                     “Eu augue ut lectus arcu bibendum at varius”
-                    <small class="">Francois Mathieu</small>
+                    <small className="">Francois Mathieu</small>
                   </p>
                 </blockquote>
               </div>

@@ -4,11 +4,11 @@ import Layout from "../components/layout";
 const components = () => {
   return (
     <Layout current="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-6">
-            <div class="template-example">
-              <h2 class="template-title-example">Text</h2>
+      <div className="container">
+        <div className="row">
+          <div className="col-xs-12 col-md-6">
+            <div className="template-example">
+              <h2 className="template-title-example">Text</h2>
               <p>
                 This is bold and this is semi bold and <b>this is extra bold</b>
                 . This is italic and this is extra light and this is light and
@@ -29,10 +29,10 @@ const components = () => {
               </p>
             </div>
 
-            <div class="template-example">
-              <h2 class="template-title-example">Headings</h2>
+            <div className="template-example">
+              <h2 className="template-title-example">Headings</h2>
 
-              <table class="table table-bordered">
+              <table className="table table-bordered">
                 <tr>
                   <td>
                     <h1>H1: Heading 1</h1>
@@ -56,11 +56,11 @@ const components = () => {
               </table>
             </div>
 
-            <div class="template-example">
-              <h2 class="template-title-example">List</h2>
-              <div class="row">
-                <div class="col-md-6">
-                  <h3 class="template-title-example">Ordered</h3>
+            <div className="template-example">
+              <h2 className="template-title-example">List</h2>
+              <div className="row">
+                <div className="col-md-6">
+                  <h3 className="template-title-example">Ordered</h3>
                   <ul>
                     <li>Consectetur adipiscing elit</li>
                     <li>Integer molestie lorem at massa</li>
@@ -68,8 +68,8 @@ const components = () => {
                     <li>Nulla volutpat aliquam velit</li>
                   </ul>
                 </div>
-                <div class="col-md-6">
-                  <h3 class="template-title-example">Number</h3>
+                <div className="col-md-6">
+                  <h3 className="template-title-example">Number</h3>
                   <ol>
                     <li>Consectetur adipiscing elit</li>
                     <li>Integer molestie lorem at massa</li>
@@ -81,72 +81,72 @@ const components = () => {
             </div>
           </div>
 
-          <div class="col-xs-12 col-md-6">
-            <div class="template-example">
-              <div class="row">
-                <div class="col-md-6">
-                  <h2 class="template-title-example">Icons</h2>
+          <div className="col-xs-12 col-md-6">
+            <div className="template-example">
+              <div className="row">
+                <div className="col-md-6">
+                  <h2 className="template-title-example">Icons</h2>
                   <p>
-                    <span class="fa-icon">
-                      <i class="fa fa-facebook"></i>
+                    <span className="fa-icon">
+                      <i className="fa fa-facebook"></i>
                     </span>
 
-                    <span class="fa-icon">
-                      <i class="fa fa-twitter"></i>
+                    <span className="fa-icon">
+                      <i className="fa fa-twitter"></i>
                     </span>
 
-                    <span class="fa-icon">
-                      <i class="fa fa-linkedin"></i>
+                    <span className="fa-icon">
+                      <i className="fa fa-linkedin"></i>
                     </span>
 
-                    <span class="fa-icon">
-                      <i class="fa fa-instagram"></i>
+                    <span className="fa-icon">
+                      <i className="fa fa-instagram"></i>
                     </span>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="template-example">
-              <h2 class="template-title-example">Buttons</h2>
-              <div class="row">
-                <div class="col-md-6">
-                  <h3 class="template-title-example">Primary</h3>
-                  <div class="row">
-                    <div class="col-md-6">
+            <div className="template-example">
+              <h2 className="template-title-example">Buttons</h2>
+              <div className="row">
+                <div className="col-md-6">
+                  <h3 className="template-title-example">Primary</h3>
+                  <div className="row">
+                    <div className="col-md-6">
                       <p>
-                        <a href="" class="btn btn-primary btn-lg">
+                        <a href="" className="btn btn-primary btn-lg">
                           Primary Large
                         </a>
                       </p>
                       <p>
-                        <a href="" class="btn btn-primary">
+                        <a href="" className="btn btn-primary">
                           Primary{" "}
                         </a>
                       </p>
                       <p>
-                        <a href="" class="btn btn-primary btn-sm">
+                        <a href="" className="btn btn-primary btn-sm">
                           Primary Small
                         </a>
                       </p>
                     </div>
                   </div>
 
-                  <h3 class="template-title-example">Default</h3>
-                  <div class="row">
-                    <div class="col-md-6">
+                  <h3 className="template-title-example">Default</h3>
+                  <div className="row">
+                    <div className="col-md-6">
                       <p>
-                        <a href="" class="btn btn-default btn-lg">
+                        <a href="" className="btn btn-default btn-lg">
                           Default Large
                         </a>
                       </p>
                       <p>
-                        <a href="" class="btn btn-default">
+                        <a href="" className="btn btn-default">
                           Default{" "}
                         </a>
                       </p>
                       <p>
-                        <a href="" class="btn btn-default btn-sm">
+                        <a href="" className="btn btn-default btn-sm">
                           Default Small
                         </a>
                       </p>
@@ -154,22 +154,22 @@ const components = () => {
                   </div>
                 </div>
 
-                <div class="col-md-6">
-                  <h3 class="template-title-example">Secondary</h3>
-                  <div class="row">
-                    <div class="col-md-6">
+                <div className="col-md-6">
+                  <h3 className="template-title-example">Secondary</h3>
+                  <div className="row">
+                    <div className="col-md-6">
                       <p>
-                        <a href="" class="btn btn-info btn-lg">
+                        <a href="" className="btn btn-info btn-lg">
                           Secondary Large
                         </a>
                       </p>
                       <p>
-                        <a href="" class="btn btn-info">
+                        <a href="" className="btn btn-info">
                           Secondary{" "}
                         </a>
                       </p>
                       <p>
-                        <a href="" class="btn btn-info btn-sm">
+                        <a href="" className="btn btn-info btn-sm">
                           Secondary Small
                         </a>
                       </p>
@@ -179,21 +179,21 @@ const components = () => {
               </div>
             </div>
 
-            <div class="template-example">
-              <h2 class="template-title-example">Inputs</h2>
+            <div className="template-example">
+              <h2 className="template-title-example">Inputs</h2>
 
-              <div class="form-group">
+              <div className="form-group">
                 <label for="exampleInputEmail1">Email address</label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="exampleInputEmail1"
                   placeholder="Email"
                 />
               </div>
 
-              <div class="form-group">
-                <select class="form-control">
+              <div className="form-group">
+                <select className="form-control">
                   <option>1</option>
                   <option>2</option>
                   <option>3</option>
@@ -202,29 +202,29 @@ const components = () => {
                 </select>
               </div>
 
-              <div class="form-group">
-                <label class="checkbox-inline">
+              <div className="form-group">
+                <label className="checkbox-inline">
                   <input type="checkbox" id="inlineCheckbox1" value="option1" />{" "}
                   Email me a copy
                 </label>
-                <label class="checkbox-inline">
+                <label className="checkbox-inline">
                   <input type="checkbox" id="inlineCheckbox2" value="option2" />{" "}
                   I am a human
                 </label>
               </div>
 
-              <div class="form-group">
+              <div className="form-group">
                 <textarea
-                  class="form-control"
+                  className="form-control"
                   rows="3"
                   placeholder="Enter your message"
                 ></textarea>
               </div>
 
-              <div class="alert alert-success" role="alert">
+              <div className="alert alert-success" role="alert">
                 Your message was successfully sent
               </div>
-              <div class="alert alert-danger" role="alert">
+              <div className="alert alert-danger" role="alert">
                 Your message has not been sent, restart
               </div>
             </div>
