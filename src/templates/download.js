@@ -6,7 +6,7 @@ const download = ({ data }) => {
   console.log(data);
   const img1 = data.markdownRemark.frontmatter.downloadPage.logo01;
   const img2 = data.markdownRemark.frontmatter.downloadPage.logo02;
-
+  const { title, paragraph } = data.markdownRemark.frontmatter.downloadPage;
   return (
     <Layout>
       <div class="section-container">
@@ -15,19 +15,9 @@ const download = ({ data }) => {
             <div class="col-xs-12 col-md-8 col-md-offset-2">
               <div class="section-container-spacer">
                 <div class="text-center">
-                  <h1>Download</h1>
+                  <h1>{title}</h1>
                 </div>
-                <p>
-                  Adipiscing vitae proin sagittis nisl rhoncus mattis. Bibendum
-                  enim facilisis gravida neque convallis a cras semper auctor.
-                  Sit amet risus nullam eget felis eget. Metus dictum at tempor
-                  commodo ullamcorper a lacus vestibulum. Sit amet facilisis
-                  magna etiam tempor orci eu. Eleifend mi in nulla posuere. Et
-                  magnis dis parturient montes nascetur ridiculus mus mauris
-                  vitae. Arcu risus quis varius quam quisque id diam. Sagittis
-                  vitae et leo duis ut diam quam. Risus nullam eget felis eget
-                  nunc lobortis mattis aliquam.
-                </p>
+                <p>{paragraph}</p>
               </div>
             </div>
           </div>
@@ -98,6 +88,8 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         downloadPage {
+          title
+          paragraph
           logo01 {
             childImageSharp {
               fluid(maxWidth: 10000, quality: 100) {
