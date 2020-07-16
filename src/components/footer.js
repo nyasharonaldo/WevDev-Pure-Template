@@ -44,11 +44,11 @@ export default function footer() {
                   <small>
                     © Untitled | Website created with{" "}
                     <a
-                      href="http://www.mashup-template.com/"
+                      href="http://www.notre-studio.com/"
                       className="link-like-text"
                       title="Create website with free html template"
                     >
-                      Mashup Template
+                      Note
                     </a>
                     /
                     <a

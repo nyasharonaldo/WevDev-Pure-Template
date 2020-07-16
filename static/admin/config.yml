@@ -38,24 +38,54 @@ collections:
           - {label: "Template Key", name: templateKey, widget: "hidden", default: "landing-page"}
           - {label: "Title", name: title, widget: string, default: "Do something"}
           
-      - file: "src/content/product-template/index.md"
-        label: "Product Page Template"
-        name: "productPage"
+      - file: "src/content/about/index.md"
+        label: "About Page"
+        name: "aboutPage"
         fields:
-          - {label: "Template Key", name: templateKey, widget: "hidden", default: "productPageTemplate"}
-          - {label: "Product Page", name: productPageTemplate, widget: object, fields: [
-            {label: "Section A Title", name: sectionATitle, widget: string},
-            {label: "Section B Title", name: sectionBTitle, widget: string},
-            {label: "Section C Titles", name: sectionCTitles, widget: object, fields: [
-              {label: "Title", name: title, widget: string},
-              {label: "Subtitle", name: subtitle, widget: string},
+          - {label: "Template Key", name: templateKey, widget: "hidden", default: "about"}
+          - {label: "About Page", name: aboutPage, widget: object, fields: [
+            {label: "Title", name: title, widget: string},
+            {label: "Paragraph 1", name: paragraph1, widget: string},
+            {label: "Paragraph 2", name: paragraph2, widget: string},
+            {label: "Signature", name: signature, widget: string},
+            {label: "Hero Image", name: hero, widget: image},
+            {label: "Body Image Left", name: bodyImageLeft, widget: image},
+            {label: "Body Image Right", name: bodyImageRight, widget: image},
+          ]}
+      - file: "src/content/contact/index.md"
+        label: "Contact Page"
+        name: "contactPage"
+        fields:
+          - {label: "Template Key", name: templateKey, widget: "hidden", default: "contact"}
+          - {label: "Contact Page", name: contactPage, widget: object, fields: [
+            {label: "Contact Form", name: contactForm, widget: object, fields: [
+              {label: "Location", name: location, widget: string},
+              {label: "Telephone", name: telephone, widget: string},
+              {label: "Email", name: email, widget: string},
+              {label: "Address Line 1", name: addressLine1, widget: string},
+              {label: "Address Line 2", name: addressLine2, widget: string},
             ]},
-            {label: "Section D Title", name: sectionDTitle, widget: string},
-            {label: "Section D Subtitle", name: sectionDSubtitle, widget: string},
-            {label: "Section E Title", name: sectionETitle, widget: string},
-            {label: "Side Nav Bar", name: "sideNavBar", widget: list, fields:[
-              {label: "Name", name: "name", widget: string, required: true},
-              {label: "Icon", name: "icon", widget: "string", required: true}
+            {label: "Employment Information", name: employment, widget: object, fields: [
+              {label: "Title", name: title, widget: string},
+              {label: "Description", name: description, widget: string},
+            ]},
           ]}
+      - file: "src/content/pricing/index.md"
+        label: "Pricing Page"
+        name: "pricingPage"
+        fields:
+          - {label: "Template Key", name: templateKey, widget: "hidden", default: "contact"}
+          - {label: "Pricing Page", name: pricingPage, widget: object, fields: [
+            {label: "Title", name: title, widget: string},
+            {label: "Description", name: description, widget: string},
+            {label: "Cards", name: cards, widget: list, fields: [
+              {label: "Title", name: title, widget: string},
+              {label: "Amount", name: amount, widget: number},
+              {label: "Currency", name: currency, widget: string},
+              {label: "Period", name: period, widget: string},
+              {label: "To", name: to, widget: string},
+              {label: "Features", name: features, widget: list, fields: [
+                {label: "Feature", name: feature, widget: string},
+              ]},
+            ]},
           ]}
-      

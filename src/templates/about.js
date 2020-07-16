@@ -5,59 +5,61 @@ import Img from "gatsby-image";
 
 const about = ({ data }) => {
   const {
-    img01,
-    img02,
-    img03,
-    paragraph2,
-    paragraph,
     title,
+    paragraph1,
+    paragraph2,
+    hero,
+    bodyImageLeft,
+    bodyImageRight,
+    signature,
   } = data.markdownRemark.frontmatter.aboutPage;
+  console.log(data);
   return (
     <Layout current="about">
-      <div class="">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
+      <div className="">
+        <div className="container">
+          <div className="row">
+            <div className="col-xs-12">
               <Img
                 className="img-responsive"
                 alt=""
-                fluid={img01.childImageSharp.fluid}
+                fluid={hero.childImageSharp.fluid}
               />
             </div>
           </div>
         </div>
       </div>
 
-      <div class="section-container">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-md-8 col-md-offset-2">
-              <div class="text-center">
+      <div className="section-container">
+        <div className="container">
+          <div className="row">
+            <div className="col-xs-12 col-md-8 col-md-offset-2">
+              <div className="text-center">
                 <h1>{title}</h1>
               </div>
-              <p class="section-container-spacer">{paragraph}</p>
+              <p className="section-container-spacer">{paragraph1}</p>
 
-              <div class="row section-container-spacer">
-                <div class="col-md-6">
+              <div className="row section-container-spacer">
+                <div className="col-md-6">
                   <Img
                     className="img-responsive"
                     alt=""
-                    fluid={img03.childImageSharp.fluid}
+                    fluid={bodyImageLeft.childImageSharp.fluid}
                   />
                 </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
                   <Img
                     className="img-responsive"
                     alt=""
-                    fluid={img02.childImageSharp.fluid}
+                    fluid={bodyImageRight.childImageSharp.fluid}
                   />
                 </div>
               </div>
             </div>
 
-            <div class="col-xs-12 col-md-8 col-md-offset-2">
+            <div className="col-xs-12 col-md-8 col-md-offset-2">
               <p>{paragraph2}</p>
-              <small class="signature pull-right">Team</small>
+              <small className="signature pull-right">{signature}</small>
             </div>
           </div>
         </div>
@@ -74,23 +76,24 @@ export const pageQuery = graphql`
       frontmatter {
         aboutPage {
           title
-          paragraph
+          paragraph1
           paragraph2
-          img01 {
+          signature
+          hero {
             childImageSharp {
               fluid(maxWidth: 10000, quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }
           }
-          img02 {
+          bodyImageLeft {
             childImageSharp {
               fluid(maxWidth: 10000, quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }
           }
-          img03 {
+          bodyImageRight {
             childImageSharp {
               fluid(maxWidth: 10000, quality: 100) {
                 ...GatsbyImageSharpFluid
