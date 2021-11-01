@@ -6,9 +6,10 @@ const pricingCard = ({title, amount, currency, period, features, to}) => {
     <div className="col-md-4">
       <div className="pricing-card pricing-primary">
         <h3>{title}</h3>
-        <h6 className="price">
-          {amount} <span>{`${currency}/${period}`}</span>
-        </h6>
+        {/* <h6 className="price"> */}
+          {/* <span> {amount} </span> */}
+           {/* <span>{`${currency}/${period}`}</span> */}
+        {/* </h6> */}
       </div>
       <div className="pricing-features">
         <ul className="features">
@@ -19,7 +20,7 @@ const pricingCard = ({title, amount, currency, period, features, to}) => {
           })}
         </ul>
         <Link to={`./${to}`}className="btn btn-primary" title="">
-          Subscribe
+          Request A Quote
         </Link>
       </div>
     </div>

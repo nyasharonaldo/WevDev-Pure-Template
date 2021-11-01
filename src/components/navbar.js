@@ -47,10 +47,10 @@ class navbar extends React.Component {
                     })}
                   >
                     <Link to="/" className="active">
-                      Home
+                      Welcome to Southern Chippings
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="/about"> About</Link>
                   </li>
                   <li>
@@ -65,13 +65,13 @@ class navbar extends React.Component {
                   <li>
                     <p>
                       <Link
-                        to="/download"
+                        to="/pricing"
                         className="btn btn-primary navbar-btn"
                       >
-                        Download
+                        Pricing
                       </Link>
                     </p>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

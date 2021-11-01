@@ -18,15 +18,15 @@ const pricing = ({ data }) => {
                 <div className="text-center">
                   <h1>{title}</h1>
                 </div>
-                <div className="col-md-8 col-md-offset-2">
+                {/* <div className="col-md-8 col-md-offset-2">
                   <p>
                     {description}
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
 
-            <div className="row">
+            <div  className="row section-container-spacer">
               {cards.map((obj) => {
                 return (
                   <PricingCard
