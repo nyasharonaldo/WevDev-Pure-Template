@@ -3,7 +3,7 @@ templateKey: landing-page
 landingPage:
   title: Southern Chippings
   paragraph: >-
-    Here at Farmyard rubber chippings, we supply high quality rubber chippings that are 98-99% free from metal. Are chippings are sized 5 – 20mm. Rubber Is a cheap inert material suitable for various applications and uses, from horse arena’s to chicken coops.
+    Here at Southern Chippings, we supply high quality rubber chippings that are 98-99% free from metal. Are chippings are sized 5 – 20mm. Rubber Is a cheap inert material suitable for various applications and uses, from horse arena’s to chicken coops.
   button: Download
   cards:
     title: Vivamus laoreet

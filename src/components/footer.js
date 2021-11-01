@@ -7,16 +7,16 @@ export default function footer() {
         <div className="section-container footer-container">
           <div className="container">
             <div className="row">
-              <div className="col-md-4">
+              {/* <div className="col-md-4">
                 <h4>About us</h4>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                   sit amet consectetur dolor
                 </p>
-              </div>
+              </div> */}
 
               <div className="col-md-4">
-                <h4>Do you like ? Share this !</h4>
+                {/* <h4>Do you like ? Share this !</h4>
                 <p>
                   <a
                     href="https://facebook.com/"
@@ -39,7 +39,7 @@ export default function footer() {
                   >
                     <i className="fa fa-linkedin" aria-hidden="true"></i>
                   </a>
-                </p>
+                </p> */}
                 <p>
                   <small>
                     © Untitled | Website created with{" "}
@@ -62,8 +62,8 @@ export default function footer() {
                 </p>
               </div>
 
-              <div className="col-md-4">
-                <h4>Subscribe to newsletter</h4>
+              {/* <div className="col-md-4"> */}
+                {/* <h4>Subscribe to newsletter</h4>
 
                 <div className="form-group">
                   <div className="input-group">
@@ -81,7 +81,7 @@ export default function footer() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

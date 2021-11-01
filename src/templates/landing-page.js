@@ -30,7 +30,7 @@ const Landing = ({ data }) => {
             <div className="col-md-6">
               <h1>Southern Chippings</h1>
               <p>
-              Here at Farmyard rubber chippings, we supply high quality rubber chippings that are 98-99% free from metal. Are chippings are sized 5 – 20mm. Rubber Is a cheap inert material suitable for various applications and uses, from horse arena’s to chicken coops.{" "}
+              Southern Chippings, we supply high quality rubber chippings that are 98-99% free from metal. Are chippings are sized 5 – 20mm. Rubber Is a cheap inert material suitable for various applications and uses, from horse arena’s to chicken coops.{" "}
               </p>
               {/* <Link
                 href="/download"
@@ -174,7 +174,7 @@ const Landing = ({ data }) => {
           <div className="row">
             <div className="col-xs-12">
               <div className="text-center">
-                <h2>Life Cycle of Farmyard Rubber chippings</h2>
+                <h2>Life Cycle of Southern Chippings</h2>
                 {/* <p>
                   {" "}
                   Auctor augue mauris augue neque. Posuere lorem ipsum dolor sit
@@ -278,7 +278,7 @@ const Landing = ({ data }) => {
                 <h2>Pricing</h2>
                 <p>
                   {" "}
-                  Please request a quote by emailling farmyard@gmail.com.{" "}
+                  Please request a quote by emailling SouthernChippings@gmail.com.{" "}
                 </p>
                 <br/>
                 <ul>
