@@ -30,7 +30,7 @@ const Landing = ({ data }) => {
             <div className="col-md-6">
               <h1>Southern Chippings</h1>
               <p>
-              Southern Chippings, we supply high quality rubber chippings that are 98-99% free from metal. Are chippings are sized 5 – 20mm. Rubber Is a cheap inert material suitable for various applications and uses, from horse arena’s to chicken coops.{" "}
+             Here at Southern Chippings, we supply high quality rubber chippings that are 98-99% free from metal. Are chippings are sized 5 – 20mm. Rubber Is a cheap inert material suitable for various applications and uses, from horse arena’s to chicken coops.{" "}
               </p>
               {/* <Link
                 href="/download"
