@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import classnames from "classnames";
+import scrollTo from "gatsby-plugin-smoothscroll";
 
 class navbar extends React.Component {
   constructor() {
@@ -46,32 +47,26 @@ class navbar extends React.Component {
                       "dropdown active": this.state.active,
                     })}
                   >
-                    <Link to="/" className="active">
+                    <button to="/" className="btn btn-link navbar-btn" onClick={() => scrollTo("#home")}>
                       Welcome to Southern Chippings
-                    </Link>
-                  </li>
-                  {/* <li>
-                    <Link to="/about"> About</Link>
+                    </button>
                   </li>
                   <li>
-                    <Link to="/pricing"> Pricing </Link>
+                    <button className="btn btn-link navbar-btn" onClick={() => scrollTo("#uses")}> Uses</button>
                   </li>
                   <li>
-                    <Link to="/contact">Contact</Link>
-                  </li>
-                  <li>
-                    <Link to="/components">Components</Link>
+                    <button className="btn btn-link navbar-btn" onClick={() => scrollTo("#lifecycle")}> Lifecycle </button>
                   </li>
                   <li>
                     <p>
-                      <Link
-                        to="/pricing"
+                      <button
+                        onClick={() => scrollTo("#pricing")}
                         className="btn btn-primary navbar-btn"
                       >
                         Pricing
-                      </Link>
+                      </button>
                     </p>
-                  </li> */}
+                  </li>
                 </ul>
               </div>
             </div>

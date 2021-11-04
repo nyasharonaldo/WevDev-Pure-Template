@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Notre Studio <support@notre-studio.com>",
   "dependencies": {
+    "@formspree/react": "^2.2.4",
     "@fortawesome/fontawesome-free": "^5.13.0",
     "gatsby": "^2.32.13",
     "gatsby-background-image": "^1.0.1",

@@ -6031,14 +6031,14 @@ button.close {
 }
 .pricing-card {
 	background: #ddd;
-	padding: 5rem 3rem;
+	padding: 2rem 2rem;
 	text-align: center;
 	h3 {
 		color: $color_9;
 	}
 	.price {
-		font-size: 5em;
-		padding: 2rem 0;
+		font-size: 1.5em;
+		padding: 0 0;
 		color: $color_9;
 		span {
 			font-size: 0.2em;
@@ -6059,7 +6059,7 @@ button.close {
 	list-style: none;
 	li {
 		position: relative;
-		margin-bottom: 30px;
+		margin-bottom: 0px;
 		&:before {
 			font-family: $font_family_8;
 			content: "\F00C";
@@ -6086,9 +6086,9 @@ button.close {
 	background-color: $background_color_15;
 	padding: 5rem 3rem;
 	.features {
-		margin-bottom: 40px;
+		margin-bottom: 0px;
 		padding-left: 30px;
-		min-height: 300px;
+		min-height: 175px;
 		li {
 			margin-bottom: 20px;
 			&:before {

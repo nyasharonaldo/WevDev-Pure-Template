@@ -6753,7 +6753,7 @@ button.close {
 
 .pricing-card {
   background: #ddd;
-  padding: 5rem 3rem;
+  padding: 2rem 2rem;
   text-align: center;
 }
 
@@ -6762,8 +6762,8 @@ button.close {
 }
 
 .pricing-card .price {
-  font-size: 5em;
-  padding: 2rem 0;
+  font-size: 1.5em;
+  padding: 0 0;
   color: #fff;
 }
 
@@ -6790,7 +6790,7 @@ button.close {
 
 .features li {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .features li:before {
@@ -6821,9 +6821,9 @@ button.close {
 }
 
 .pricing-features .features {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   padding-left: 30px;
-  min-height: 300px;
+  min-height: 175px;
 }
 
 .pricing-features .features li {
