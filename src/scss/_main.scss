@@ -5979,8 +5979,14 @@ button.close {
 	position: relative;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: bottom;
 	padding: 12% 0;
+	h1{
+	font-size: 60px;
+	}
+	p{
+		font-size: 20px;
+	}
 }
 .opacity {
 	background-color: $background_color_47;

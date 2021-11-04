@@ -6690,8 +6690,16 @@ button.close {
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: bottom;
   padding: 12% 0;
+}
+
+.background-image-container h1 {
+  font-size: 60px;
+}
+
+.background-image-container p {
+  font-size: 20px;
 }
 
 .opacity {

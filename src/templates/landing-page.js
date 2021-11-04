@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import { graphql, Link } from "gatsby";
 import Img from "gatsby-image";
 import PricingCard from "../components/pricingCard";
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const Landing = ({ data }) => {
   const {
@@ -32,6 +33,7 @@ const Landing = ({ data }) => {
               <p>
              Here at Southern Chippings, we supply high quality rubber chippings that are 98-99% free from metal. Are chippings are sized 5 – 20mm. Rubber Is a cheap inert material suitable for various applications and uses, from horse arena’s to chicken coops.{" "}
               </p>
+              <button onClick={() => scrollTo('#pricing')}>See Pricing</button>
               {/* <Link
                 href="/download"
                 title=""
@@ -42,12 +44,76 @@ const Landing = ({ data }) => {
             </div>
           </div>
         </div>
+      </div>    
+
+      <div className="section-container background-color-container white-text-container" id='pricing'>
+        <div className="container">
+          <div className="row">
+            <div className="col-xs-12">
+              <PricingCard
+                    title={"Pricing"}
+                    amount={"20"}
+                    currency={"£"}
+                    period={"1w"}
+                    features={["Green","Red"]}
+                  />
+              <div className="col-md-8">
+                  <div className="template-example">
+                    <h2 className="template-title-example">Inputs</h2>
+
+                    <div className="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input
+                        type="email"
+                        className="form-control"
+                        id="exampleInputEmail1"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div className="form-group">
+                      <select className="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+
+                    <div className="form-group">
+                      <label className="checkbox-inline">
+                        <input type="checkbox" id="inlineCheckbox1" value="option1" />{" "}
+                        Email me a copy
+                      </label>
+                      <label className="checkbox-inline">
+                        <input type="checkbox" id="inlineCheckbox2" value="option2" />{" "}
+                        I am a human
+                      </label>
+                    </div>
+
+                    <div className="form-group">
+                      <textarea
+                        className="form-control"
+                        rows="3"
+                        placeholder="Enter your message"
+                      ></textarea>
+                    </div>
+
+                    <div className="alert alert-success" role="alert">
+                      Your message was successfully sent
+                    </div>
+                    <div className="alert alert-danger" role="alert">
+                      Your message has not been sent, restart
+                    </div>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
       </div>
 
-      
-
-
-      <div className="section-container border-section-container">
+       <div className="section-container border-section-container">
         <div className="container">
           <div className="row">
             <div className="col-md-12 section-container-spacer">
@@ -61,8 +127,7 @@ const Landing = ({ data }) => {
                 </p> */}
               </div>
             </div>
-
-            <div className="col-md-4">
+            <div className="col-md-12 section-container-spacer">
               <div className="fa-container">
                 <i className="fa fa-comment-o fa-3x" aria-hidden="true"></i>
               </div>
@@ -71,11 +136,20 @@ const Landing = ({ data }) => {
               </div>
               <div>
                 <p>
-                If you used crushed tyre then the surface wouldn't lose its integrity through biodegradation, like wood chip would. It won’t become muddy or slippery in wintery or wet conditions like grass. It’s also less prone to freezing, and it is springy, making it safer to fall on.
+                The product is frost resistant and is very well drained to produce a cushioned non-slip surface that is safe for both the horse and the rider. Rubber chippings are safe for equestrian use in turnout areas as horses tend not to eat it and the softer nature of rubber chip is kinder on the hooves.The product is frost resistant and is very well drained to produce a cushioned non-slip surface that is safe for both the horse and the rider. Rubber chippings are safe for equestrian use in turnout areas as horses tend not to eat it and the softer nature of rubber chip is kinder on the hooves.
+                </p>
+                <p>
+                <h5>Construction:</h5> Equstrian arena require a 100mm silica sand layed upon a drainage channels, topped with 50mm of Rubber chipping, allowing you to exercise your equine companion in all weathers. 
+                </p>
+                <p>
+                <h5>How Much Will I Need?:</h5> To achieve the recommended 50mm depth you will require 25kg of rubber chippings per square metre. 
+                </p>
+                <p>
+                We offer competitive rates for both Rubber Chippings and Silica Sand.
                 </p>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-12 section-container-spacer">
               <div className="fa-container">
                 <i className="fa fa-heart-o fa-3x" aria-hidden="true"></i>
               </div>
@@ -84,7 +158,16 @@ const Landing = ({ data }) => {
               </div>
               <div>
                 <p>
-                Rubber chippings do not hold moisture. They dry very quickly. Chippings are easy to clean. They are very hygienic. Positives.
+                Our rubber chippings are a very hygienic surface for your chickens, they do not absorb moisture so any mess that does land on them, dries quickly which is much more pleasant for the chickens. Regular hosing down will keep the chippings at their best and provide a clean dust free environment for your chickens.
+                </p>
+                <p>
+                <h5>Construction:</h5> Lay a basic membrane down and simply place the rubber chippings on top 50mm will do perfect. Do not apply to concrete bases this will result in drainage problems. 
+                </p>
+                <p>
+                <h5>How Much Will I Need?:</h5> To achieve the recommended 50mm depth you will require 25kg of rubber chippings per square metre. 
+                </p>
+                <p>
+                Maintaines: Rince regulerly
                 </p>
                {/* <ul>
                  <li>Minimising leg concussion risk by offering a level of protection for feet and tendons</li>
@@ -94,80 +177,31 @@ const Landing = ({ data }) => {
                </ul> */}
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-12 section-container-spacer">
               <div className="fa-container">
                 <i className="fa fa-bell-o fa-3x" aria-hidden="true"></i>
               </div>
               <div className="text-center">
                 <h3>Gardens</h3>
               </div>
-              {/* <div>
+              <div>
                 <p>
-                  Auctor augue mauris augue neque. Posuere lorem ipsum dolor sit
-                  amet consectetur adipiscing. Porta non pulvinar neque laoreet.
-                  Viverra ipsum nunc aliquet bibendum. Iaculis urna id volutpat
-                  lacus. Turpis egestas pretium aenean pharetra magna ac.
+                Using rubber mulch in your landscaping is the healthier choice for plants then such alternitives as wood chippings because it allows for water and nutrients to reach plant roots that other mulches retain, it doesn't attract pests that can often damage plants, and helps prevent weeds leading to less chemical use for control.
                 </p>
-              </div> */}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      
-
-      {/* <div className="section-container">
-        <div className="container">
-          <div className="row">
-            <div className="col-xs-12">
-              <div
-                id="carouselExampleIndicators"
-                className="carousel slide"
-                data-ride="carousel"
-              >
-                <div className="carousel-inner" role="listbox">
-                  <div className="item active">
-                    <Img
-                      className="img-responsive"
-                      alt=""
-                      fluid={img5.childImageSharp.fluid}
-                    />
-                  </div>
-                  <div className="item">
-                    <Img
-                      className="img-responsive"
-                      alt=""
-                      fluid={img7.childImageSharp.fluid}
-                    />
-                  </div>
-                  <div className="item">
-                    <Img
-                      className="img-responsive"
-                      alt=""
-                      fluid={img5.childImageSharp.fluid}
-                    />
-                  </div>
-                </div>
-                <ol className="carousel-indicators">
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="0"
-                    className="active"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="1"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="2"
-                  ></li>
-                </ol>
+                <p>
+                <h5>Construction:</h5> Weed the garden thorougherly and do not place heavy amounts next to tree stumps or plant stems as they need room to breath. Soak the mulch in a bucket for 24Hours to ensure there are no oils left on material.
+                </p>
+                <p>
+                <h5>How Much Will I Need?:</h5> Up to you, depends on your garden and how you wish for it to look
+                </p>
+                <p>
+                We offer local delivery for any size delivery and national delivery for 10+ Tones
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="section-container background-color-container white-text-container">
         <div className="container">
@@ -270,35 +304,6 @@ const Landing = ({ data }) => {
         </div>
       </div>
 
-      <div className="section-container background-color-container white-text-container">
-        <div className="container">
-          <div className="row">
-            <div className="col-xs-12">
-              <div className="text-center">
-                <h2>Pricing</h2>
-                <p>
-                  {" "}
-                  Please request a quote by emailling SouthernChippings@gmail.com.{" "}
-                </p>
-                <br/>
-                <ul>
-                  <p>Request a quote for a Equestrian arena, large scale chicken coop</p>
-                  <p>1m X 1m X 1m bags from £80 plus shipping</p>
-                  <p>Smaller bags are available upon request</p>
-
-                </ul>
-                {/* <a
-                  href="./download.html"
-                  title=""
-                  className="btn btn-primary btn-lg"
-                >
-                  Download
-                </a> */}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </Layout>
   );
 };

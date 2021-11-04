@@ -9,6 +9,7 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-netlify-cms-paths`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-smoothscroll`,
     {
       resolve: "gatsby-source-filesystem",
       options: {
