@@ -35,12 +35,13 @@ function ContactForm() {
           <input
             type="number"
             className="form-control"
-            id="TonsRequired"
+            id="tonsRequired"
+            name="tonsRequired"
             placeholder="Amount Required"
           />
           <ValidationError 
-            prefix="Number"
-            field="number"
+            prefix="TonsRequired"
+            field="tonsRequired"
             errors={state.errors}
           />
         </div>
