@@ -17,7 +17,6 @@ function ContactForm() {
         <h2 className="template-title-example">Enquiry</h2>
 
         <div className="form-group">
-          <label htmlFor="email">Email address</label>
           <input
             id="email"
             className="form-control"

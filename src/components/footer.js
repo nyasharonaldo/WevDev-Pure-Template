@@ -48,7 +48,7 @@ export default function footer() {
                       className="link-like-text"
                       title="Create website with free html template"
                     >
-                      Note
+                      Notre
                     </a>
                     /
                     <a

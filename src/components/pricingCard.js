@@ -7,7 +7,7 @@ const pricingCard = ({title, amount, currency, period, features, to}) => {
       <div className="pricing-card pricing-primary">
         <h3>{title}</h3>
         <h6 className="price">
-            <p> {amount} {`${currency}/${period}`}</p>
+            <p> {amount} {`/${period}`}</p>
         </h6>
       </div>
       <div className="pricing-features">

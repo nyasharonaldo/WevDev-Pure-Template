@@ -32,7 +32,7 @@ landingPage:
           lacus. Turpis egestas pretium aenean pharetra magna ac.
   img5: ../img/img-05.jpg
   img6: ../img/trees.png
-  tractor: ../img/tractor.png
+  tractor: ../img/tractor.jpg
   arena: ../img/arena.png
   img7: ../img/img-07.jpg
   logo01: ../img/logo-01.png

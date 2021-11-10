@@ -52,7 +52,7 @@ class navbar extends React.Component {
                     </button>
                   </li>
                   <li>
-                    <button className="btn btn-link navbar-btn" onClick={() => scrollTo("#uses")}> Uses</button>
+                    <button className="btn btn-link navbar-btn" onClick={() => scrollTo("#applications")}> Applications</button>
                   </li>
                   <li>
                     <button className="btn btn-link navbar-btn" onClick={() => scrollTo("#lifecycle")}> Lifecycle </button>

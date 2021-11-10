@@ -27,28 +27,34 @@ const Landing = ({ data }) => {
 
   return (
     <Layout current="landing">
-      <div className="white-text-container background-image-container bg" id='home'>
+      <div
+        className="white-text-container background-image-container bg"
+        id="home"
+      >
         <div className="opacity"></div>
         <div className="container">
           <div className="row">
             <div className="col-md-6">
               <h1>Southern Chippings</h1>
               <p>
-                Here at Southern Chippings, we supply high quality rubber
-                chippings that are 98-99% free from metal. Are chippings are
-                sized 5 – 20mm. Rubber Is a cheap inert material suitable for
-                various applications and uses, from horse arena’s to chicken
-                coops.{" "}
+                Rubber is a cheap inert material suitable for various
+                applications, from horse arena’s to chicken coops. Here at
+                Southern Chippings, we supply high quality rubber chippings that
+                are 98-99% free from metal. Our chippings are sized 5 – 20mm.{" "}
               </p>
-              <button className="col-md-4 btn btn-primary" onClick={() => scrollTo("#pricing")}>See Pricing</button>
-              
+              <button
+                className="col-md-4 btn btn-primary"
+                onClick={() => scrollTo("#pricing")}
+              >
+                See Pricing
+              </button>
             </div>
           </div>
         </div>
       </div>
 
       <div
-        className="section-container background-color-container white-text-container"
+        className="section-container background-color-container-alt white-text-container"
         id="pricing"
       >
         <div className="container">
@@ -56,7 +62,7 @@ const Landing = ({ data }) => {
             <div className="col-xs-12">
               <PricingCard
                 title={"Rubber Chip"}
-                amount={"75"}
+                amount={"£75"}
                 currency={"£"}
                 period={"Ton Bag"}
                 features={feats}
@@ -69,12 +75,12 @@ const Landing = ({ data }) => {
         </div>
       </div>
 
-      <div className="section-container border-section-container" id="uses">
+      <div className="section-container border-section-container" id="applications">
         <div className="container">
           <div className="row">
             <div className="col-md-12 section-container-spacer">
               <div className="text-center">
-                <h2>Uses</h2>
+                <h2>Applications</h2>
               </div>
             </div>
             <div className="col-md-12 section-container-spacer">
@@ -98,13 +104,13 @@ const Landing = ({ data }) => {
                   nature of rubber chip is kinder on the hooves.
                 </p>
                 <p>
-                  <h5>Construction:</h5> Equstrian arena require a 100mm silica
+                  <h5>Construction</h5> Equstrian arena require a 100mm silica
                   sand layed upon a drainage channels, topped with 50mm of
                   Rubber chipping, allowing you to exercise your equine
                   companion in all weathers.
                 </p>
                 <p>
-                  <h5>How Much Will I Need?:</h5> To achieve the recommended
+                  <h5>How Much Will I Need?</h5> To achieve the recommended
                   50mm depth you will require 25kg of rubber chippings per
                   square metre.
                 </p>
@@ -131,16 +137,16 @@ const Landing = ({ data }) => {
                   chickens.
                 </p>
                 <p>
-                  <h5>Construction:</h5> Lay a basic membrane down and simply
+                  <h5>Construction</h5> Lay a basic membrane down and simply
                   place the rubber chippings on top 50mm will do perfect. Do not
                   apply to concrete bases this will result in drainage problems.
                 </p>
                 <p>
-                  <h5>How Much Will I Need?:</h5> To achieve the recommended
+                  <h5>How Much Will I Need?</h5> To achieve the recommended
                   50mm depth you will require 25kg of rubber chippings per
                   square metre.
                 </p>
-                <p>Maintaines: Rince regulerly</p>
+                <p><h5>Maintenance</h5> Rince regulerly</p>
               </div>
             </div>
             <div className="col-md-12 section-container-spacer">
@@ -160,13 +166,13 @@ const Landing = ({ data }) => {
                   for control.
                 </p>
                 <p>
-                  <h5>Construction:</h5> Weed the garden thorougherly and do not
+                  <h5>Construction</h5> Weed the garden thorougherly and do not
                   place heavy amounts next to tree stumps or plant stems as they
                   need room to breath. Soak the mulch in a bucket for 24Hours to
                   ensure there are no oils left on material.
                 </p>
                 <p>
-                  <h5>How Much Will I Need?:</h5> Up to you, depends on your
+                  <h5>How Much Will I Need?</h5> Up to you, depends on your
                   garden and how you wish for it to look
                 </p>
                 <p>
@@ -187,7 +193,7 @@ const Landing = ({ data }) => {
           <div className="row">
             <div className="col-xs-12">
               <div className="text-center">
-                <h2>Life Cycle of Southern Chippings</h2>
+                <h2>Lifecycle of Southern Chippings</h2>
               </div>
             </div>
           </div>
