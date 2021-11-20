@@ -64,7 +64,7 @@ const Landing = ({ data }) => {
                 title={"Rubber Chip"}
                 amount={"£50"}
                 currency={"£"}
-                period={"Ton Bag"}
+                period={"Tonne Bag"}
                 features={feats}
               />
               <div className="col-md-8">
