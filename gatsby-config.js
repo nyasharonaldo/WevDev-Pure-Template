@@ -11,17 +11,15 @@ module.exports = {
     `gatsby-plugin-netlify`,
     `gatsby-plugin-smoothscroll`,
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [
-          "G-899533TZPF", // Google Analytics / GA
-        ],
-        pluginConfig: {
-          // Puts tracking script in the head instead of the body
-          head: true,
-          anonymize_ip: true
+        googleAnalytics: {
+          trackingId: 'G-899533TZPF',
+          // Setting this parameter is optional
+          anonymize: true
         },
+        // Defines the environments where the tracking should be available  - default is ["production"]
+        environments: ['production', 'development']
       },
     },
     {
