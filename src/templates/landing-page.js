@@ -62,7 +62,7 @@ const Landing = ({ data }) => {
             <div className="col-xs-12">
               <PricingCard
                 title={"Rubber Chip"}
-                amount={"£65"}
+                amount={"£50"}
                 currency={"£"}
                 period={"Ton Bag"}
                 features={feats}
