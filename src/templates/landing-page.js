@@ -20,9 +20,9 @@ const Landing = ({ data }) => {
   console.log(data);
 
   const feats = [
-    { feature: "Recycaled rubber chippings" },
+    { feature: "Recycled rubber chippings" },
     { feature: "98-99% metal free" },
-    { feature: "Inert, frost resistent and long lasting" },
+    { feature: "Inert, frost resistant and long lasting" },
   ];
 
   return (
@@ -95,42 +95,42 @@ const Landing = ({ data }) => {
               </div>
               <div>
                 <p>
-                  If you use our rubber chippings the surface of your arena
-                  wouldn't lose its integrity through biodegradation, like wood
-                  chip would. It won’t become muddy or slippery in wintery or
-                  wet conditions like grass. It’s also less prone to freezing,
-                  and it is springy, making it safer to fall on.
+                  If you use our rubber chippings, the surface of your arena
+                  won't lose its integrity through biodegradation, unlike
+                  products derived from wood. It won’t become muddy or slippery
+                  in icy or wet conditions, making it a more desirable option
+                  than a grass surface. It’s also less prone to freezing, and it
+                  is springy, making it safer to fall on.
                 </p>
                 <h5>Why ours?</h5>
                 <ul>
                   <li>
                     The equestrian rubber resists frost to around -5 degrees
-                    giving a truly year-round riding experience
+                    Celcius, giving it a truly year-round riding experience.
                   </li>
                   <li>
                     It Minimises leg concussion risk by offering a level of
-                    protection for feet and tendons
+                    protection for hooves and tendons
                   </li>
                   <li>
-                    Very little maintenance as or annual replenishment is
-                    required as the rubber does not decompose, break down or
-                    blow away
+                    Very little maintenance because it does not decompose, break
+                    down or blow away
                   </li>
-                  <li>Our chipping aids surface drainage</li>
+                  <li>Acts as an aid in surface drainage</li>
                 </ul>
 
-                <h5>Construction</h5>
+                <h5>How to best construct your arena</h5>
                 <p>
                   To make up the arena surface, tyres are processed into small
-                  rubber chippings. 100mm of Silica Sand is laid down, followed
-                  by 50mm of Rubber Chippings which form a soft, grippy surface.
-                  This is laid over drainage channels, allowing you to exercise
-                  your equine companion in all weathers.
+                  rubber chippings. Lay down 100mm of silica sand, followed by
+                  50mm of rubber chippings in order to form a soft, grippy
+                  surface. This is laid over drainage channels, allowing you to
+                  exercise your equine companion in all weathers.
                 </p>
                 <h5>Where can I buy Silica Sand?</h5>
                 <p>
-                  We offer competitive rates for both Rubber Chippings and
-                  Silica Sand. Email{" "}
+                  We offer competitive rates for both rubber chippings and
+                  silica sand. Email{" "}
                   <a href="mailto:info@southernchippings.co.uk">
                     info@southernchippings.co.uk
                   </a>{" "}
@@ -201,7 +201,8 @@ const Landing = ({ data }) => {
                   us at{" "}
                   <a href="mailto:info@southernchippings.co.uk">
                     info@southernchippings.co.uk
-                  </a>.{" "}
+                  </a>
+                  .{" "}
                 </p>
                 <p>
                   We offer local delivery for any size delivery and national
