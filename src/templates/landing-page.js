@@ -148,25 +148,23 @@ const Landing = ({ data }) => {
               <div>
                 <p>
                   Our rubber chippings are a very hygienic surface for your
-                  chickens, they do not absorb moisture so any mess that does
-                  land on them, dries quickly which is much more pleasant for
-                  the chickens. Regular hosing down will keep the chippings at
-                  their best and provide a clean dust free environment for your
-                  chickens.
+                  chickens. They do not absorb moisture, so any mess that does
+                  land on them dries quickly, which is much more pleasant for
+                  the chickens. Regularly hosing it down will keep the chippings
+                  at their best and provide a clean, dust free environment for
+                  your chickens.
                 </p>
-                <h5>Construction</h5>
+                <h5>How to best construct your coop</h5>
                 <p>
-                  Lay a basic membrane down and simply place the rubber
-                  chippings on top 50mm will do perfect. Do not apply to
-                  concrete bases this will result in drainage problems.
+                  Lay a basic membrane down and simply place 50mm of the rubber chippings on top. Do not apply to concrete bases because this will result in drainage problems.
                 </p>
                 <h5>How Much Will I Need?</h5>
                 <p>
-                  To achieve the recommended 50mm depth you will require 25kg of
-                  rubber chippings per square metre.
+                  To achieve the recommended 50mm depth you will require 25kg of rubber chippings per square metre.
+
                 </p>
                 <h5>Maintenance</h5>
-                <p> Rince regularly</p>
+                <p>Rinse with a hose weekly</p>
               </div>
             </div>
             <div className="col-md-12 section-container-spacer">
