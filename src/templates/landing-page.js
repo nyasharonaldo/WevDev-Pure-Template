@@ -38,7 +38,7 @@ const Landing = ({ data }) => {
               <h1>Southern Chippings</h1>
               <p>
                 Rubber is a cheap inert material suitable for various
-                applications, from horse arena’s to chicken coops. Here at
+                applications, from horse arenas to chicken coops. Here at
                 Southern Chippings, we supply high quality rubber chippings that
                 are 98-99% free from metal. Our chippings are sized 5 – 20mm.{" "}
               </p>
@@ -160,7 +160,7 @@ const Landing = ({ data }) => {
                   chippings on top. Do not apply to concrete bases because this
                   will result in drainage problems.
                 </p>
-                <h5>How Much Will I Need?</h5>
+                <h5>How much will you need?</h5>
                 <p>
                   To achieve the recommended 50mm depth you will require 25kg of
                   rubber chippings per square metre.
@@ -192,7 +192,7 @@ const Landing = ({ data }) => {
                   room to breathe. Soak the chippings in a bucket for 24 hours
                   to ensure that there are no oils left on the material.
                 </p>
-                <h5>How Much Will I Need?</h5>
+                <h5>How much will you need?</h5>
                 <p>
                   {" "}
                   This is down to personal choice depends on your garden and how
