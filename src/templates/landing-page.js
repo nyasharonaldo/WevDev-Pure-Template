@@ -109,7 +109,7 @@ const Landing = ({ data }) => {
                     Celcius, giving it a truly year-round riding experience.
                   </li>
                   <li>
-                    It Minimises leg concussion risk by offering a level of
+                    It minimises leg concussion risk by offering a level of
                     protection for hooves and tendons
                   </li>
                   <li>
@@ -156,12 +156,14 @@ const Landing = ({ data }) => {
                 </p>
                 <h5>How to best construct your coop</h5>
                 <p>
-                  Lay a basic membrane down and simply place 50mm of the rubber chippings on top. Do not apply to concrete bases because this will result in drainage problems.
+                  Lay a basic membrane down and simply place 50mm of the rubber
+                  chippings on top. Do not apply to concrete bases because this
+                  will result in drainage problems.
                 </p>
                 <h5>How Much Will I Need?</h5>
                 <p>
-                  To achieve the recommended 50mm depth you will require 25kg of rubber chippings per square metre.
-
+                  To achieve the recommended 50mm depth you will require 25kg of
+                  rubber chippings per square metre.
                 </p>
                 <h5>Maintenance</h5>
                 <p>Rinse with a hose weekly</p>
@@ -177,34 +179,33 @@ const Landing = ({ data }) => {
               <div>
                 <p>
                   Using rubber mulch in your landscaping is the healthier choice
-                  for plants then such alternatives as wood chippings because it
-                  allows for water and nutrients to reach plant roots that other
-                  mulches retain, it doesn't attract pests that can often damage
-                  plants, and helps prevent weeds leading to less chemical use
-                  for control.
+                  for plants than alternatives such as wood chippings. This is
+                  because it allows for water and nutrients to reach plant roots
+                  that other mulches might retain. It doesn't attract pests that
+                  can often damage plants and helps prevent weeds, resulting in
+                  less chemical use for control.
                 </p>
-                <h5>Construction</h5>
+                <h5>How to best use rubber chippings for your garden</h5>
                 <p>
-                  Weed the garden thoroughly and do not place heavy amounts next
-                  to tree stumps or plant stems as they need room to breathe.
-                  Soak the mulch in a bucket for 24Hours to ensure there are no
-                  oils left on material.
+                  Weed the garden thoroughly and do not place heavy amounts of
+                  rubber chippings next to tree stumps or plant stems. They need
+                  room to breathe. Soak the chippings in a bucket for 24 hours
+                  to ensure that there are no oils left on the material.
                 </p>
                 <h5>How Much Will I Need?</h5>
                 <p>
                   {" "}
-                  Up to you, depends on your garden and how you wish for it to
-                  look. If you'd like some help in understanding how much will
-                  be required for your use case don't hestitate to reach out to
-                  us at{" "}
+                  This is down to personal choice depends on your garden and how
+                  you wish for it to look. If you'd like some help in
+                  understanding how much will be required for your use case,
+                  please don't hesitate to reach out to us at{" "}
                   <a href="mailto:info@southernchippings.co.uk">
                     info@southernchippings.co.uk
                   </a>
                   .{" "}
                 </p>
                 <p>
-                  We offer local delivery for any size delivery and national
-                  delivery for 10+ Tones.
+                  We offer local delivery for any size delivery and national delivery for 10+ Tonnes.
                 </p>
               </div>
             </div>
@@ -242,14 +243,10 @@ const Landing = ({ data }) => {
               <ul className="features">
                 <li>
                   <h3>
-                    Rubber Trees are grown in hot wet climates e.g. South
-                    America, Rubber processing technically begins at the point
-                    of harvesting, when tappers take latex sap from rubber
-                    trees.
+                    Rubber trees are grown in hot wet climates e.g. South America. Rubber processing begins at the point of harvesting, when tappers take latex sap from rubber trees.
                   </h3>
                   <h3>
-                    Next, the latex is filtered and packaged into drums, then
-                    sent to be made into sheets.
+                    Next, the latex is filtered and packaged into drums and sent to be made into sheets.
                   </h3>
                 </li>
               </ul>
@@ -272,9 +269,7 @@ const Landing = ({ data }) => {
               <ul className="features">
                 <li>
                   <h3>
-                    The sheets are dried then mixed with carbon black, synthetic
-                    rubber and reinforced with Steel wire to produce the tyres
-                    of today. Average life of a tractor tyre is 5 years.
+                    The sheets are dried then mixed with carbon black, synthetic rubber and reinforced with steel wire to produce the tyres we use today.
                   </h3>
                   <h3>Average life of a tractor tyre is 5 years.</h3>
                 </li>
@@ -298,12 +293,9 @@ const Landing = ({ data }) => {
             <div className="col-md-5">
               <ul className="features">
                 <li>
-                  <h3>With your help the rubber can have one final use.</h3>
+                  <h3>With your help, the rubber can achieve one final use.</h3>
                   <h3>
-                    To make up the surface, tyres are processed into small
-                    rubber fragments and mixed with sand to form a soft, grippy
-                    surface. This is laid over drainage channels, allowing you
-                    to exercise your equine companion in all weathers.
+                    To produce our chippings, tyres are processed into small rubber fragments and mixed with sand to form a soft, grippy surface. This can be laid over drainage channels, allowing you to exercise your equine companion in all weathers, raise happy chickens or design that perfect garden.
                   </h3>
                 </li>
               </ul>
