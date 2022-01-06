@@ -131,8 +131,8 @@ const Landing = ({ data }) => {
                 <p>
                   We offer competitive rates for both rubber chippings and
                   silica sand. Email{" "}
-                  <a href="mailto:info@southernchippings.co.uk">
-                    info@southernchippings.co.uk
+                  <a href="mailto:harveyhrh@gmail.com">
+                    harveyhrh@gmail.com
                   </a>{" "}
                   for more information.
                 </p>
@@ -199,8 +199,8 @@ const Landing = ({ data }) => {
                   you wish for it to look. If you'd like some help in
                   understanding how much will be required for your use case,
                   please don't hesitate to reach out to us at{" "}
-                  <a href="mailto:info@southernchippings.co.uk">
-                    info@southernchippings.co.uk
+                  <a href="mailto:harveyhrh@gmail.com">
+                    harveyhrh@gmail.com
                   </a>
                   .{" "}
                 </p>
